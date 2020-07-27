@@ -16,6 +16,7 @@ Tecnologias e ferramentas utilizadas
 
 - [Node.js](https://nodejs.org/en/)
 - [Insomnia](https://insomnia.rest/)
+- [Postbird](https://www.electronjs.org/apps/postbird)
 - [Express](https://expressjs.com/pt-br/)
 - [Sequelize](https://sequelize.org/)
 - [PostgreSQL](https://www.postgresql.org/)
@@ -35,7 +36,7 @@ Importe o arquivo <a download="Insomnia" href=".github/Insomnia.json">Insomnia.j
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/) ou [npm](https://www.npmjs.com/)
-- [Docker](https://www.docker.com/products/docker-desktop) and [Docker Compose](https://docs.docker.com/compose/install/)
+- [Docker](https://www.docker.com/products/docker-desktop)
 
 **Clone o projeto e accesse a pasta **
 
@@ -55,6 +56,8 @@ $ docker run --name database -e POSTGRESS_PASSWORD=docker -p 5432:5432 -d postgr
 # Iniciar o banco de dados
 $ docker start database 
 
+# Através do Postbird, crie uma base de dados com nome "softdesign". Este é o nome que a aplicação utiliza para se conectar
+
 # Realizar a migragion 
 $ yarn sequelize db:migrate
 
@@ -66,4 +69,4 @@ $ yarn sequelize db:seed:all
 
 ---
 
-Made byMatheus Cardoso 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/thyus/)
+Made by Matheus Cardoso 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/thyus/)
